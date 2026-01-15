@@ -1,13 +1,12 @@
 ---
 name: ui-fixer
-description: Fixes Flutter UI bugs, layout issues, overflow errors, responsive problems, and visual discrepancies in Eisaal app. Use when something looks wrong, is broken, overflows, or doesn't match expected design.
-model: sonnet
+description: "Fixes Flutter UI bugs, layout issues, overflow errors, responsive problems, and visual discrepancies in Eisaal app. Use when something looks wrong, is broken, overflows, or doesn't match expected design."
 tools:
   - Read
   - Write
   - Grep
   - Glob
-  - Bash
+model: opus
 ---
 
 # Eisaal UI Fixer Agent

@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dart run build_runner build:*)",
+      "Bash(flutter:*)",
+      "Bash(dart:*)",
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(git branch:*)",
+      "Bash(ls:*)",
+      "Bash(cd:*)",
+      "Bash(cat:*)",
+      "Bash(head:*)",
+      "Bash(tail:*)"
+    ],
+    "deny": []
+  },
+  "ignorePatterns": [
+    "**/*.g.dart",
+    "**/*.freezed.dart",
+    "**/build/**",
+    "**/.dart_tool/**",
+    "**/ios/Pods/**",
+    "**/android/.gradle/**",
+    "**/.fvm/**"
+  ]
+}

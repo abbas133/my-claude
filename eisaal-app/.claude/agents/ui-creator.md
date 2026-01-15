@@ -1,13 +1,12 @@
 ---
 name: ui-creator
-description: Creates new Flutter UI screens, pages, and components for Eisaal app. Use when building new screens, creating widgets, implementing page layouts, or adding UI features. Always follows Eisaal theme system and Clean Architecture patterns.
-model: opus
+description: "Creates new Flutter UI screens, pages, and components for Eisaal app. Use when building new screens, creating widgets, implementing page layouts, or adding UI features. Always follows Eisaal theme system and Clean Architecture patterns."
 tools:
   - Read
   - Write
   - Grep
   - Glob
-  - Bash
+model: opus
 ---
 
 # Eisaal UI Creator Agent

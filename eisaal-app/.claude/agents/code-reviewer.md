@@ -1,11 +1,12 @@
 ---
 name: code-reviewer
-description: Reviews Flutter/Dart code for quality, patterns, and best practices in Eisaal app. Use when you want code reviewed, checked for issues, or validated against project standards.
-model: opus
+description: "Reviews Flutter/Dart code for quality, patterns, and best practices in Eisaal app. Use when you want code reviewed, checked for issues, or validated against project standards."
 tools:
   - Read
+  - Write
   - Grep
   - Glob
+model: opus
 ---
 
 # Eisaal Code Reviewer Agent

@@ -1,12 +1,12 @@
 ---
 name: module-scaffolder
-description: Creates new module folder structure following Eisaal's Clean Architecture pattern. Use when adding a new feature module, scaffolding a new section, or setting up module boilerplate.
-model: sonnet
+description: "Creates new module folder structure following Eisaal's Clean Architecture pattern. Use when adding a new feature module, scaffolding a new section, or setting up module boilerplate."
 tools:
   - Read
   - Write
-  - Bash
+  - Grep
   - Glob
+model: haiku
 ---
 
 # Eisaal Module Scaffolder Agent

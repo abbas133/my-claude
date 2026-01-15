@@ -1,12 +1,12 @@
 ---
 name: accessibility-validator
-description: Validates Flutter UI for accessibility compliance. Use when auditing pages/widgets for WCAG 2.1 AA compliance, checking color contrast, font sizes, touch targets, semantic labels, or screen reader support. Delegates fixes to ui-fixer agent after explicit confirmation from user.
-model: sonnet
-tools:
+description: "Validates Flutter UI for accessibility compliance. Use when auditing pages/widgets for WCAG 2.1 AA compliance, checking color contrast, font sizes, touch targets, semantic labels, or screen reader support. Delegates fixes to ui-fixer agent after explicit confirmation from user."
+tools: 
   - Read
+  - Write
   - Grep
   - Glob
-  - Bash
+model: sonnet
 ---
 
 # Flutter Accessibility Validator

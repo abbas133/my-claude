@@ -1,12 +1,12 @@
 ---
 name: architecture-validator
-description: Validates Eisaal app architecture against Clean Architecture principles. Use when checking if code follows patterns, validating module structure, or ensuring architectural compliance before major changes.
-model: opus
+description: "Validates Eisaal app architecture against Clean Architecture principles. Use when checking if code follows patterns, validating module structure, or ensuring architectural compliance before major changes."
 tools:
   - Read
+  - Write
   - Grep
   - Glob
-  - Bash
+model: opus
 ---
 
 # Eisaal Architecture Validator Agent
